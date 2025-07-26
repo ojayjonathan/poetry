@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poems - Developing the Love for Poetry</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Poetry Project</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="poems.html" class="nav-link active">Poems</a></li>
+                <li><a href="videos.html" class="nav-link">Recitations</a></li>
+                <li><a href="study-guide.html" class="nav-link">Study Guide</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="poems-page">
+        <div class="container">
+            <header class="page-header">
+                <h1>Poetry Collection</h1>
+                <p>A curated selection of poems exploring various themes and forms</p>
+            </header>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All Poems</button>
+                <button class="filter-btn" data-category="narrative">Narrative</button>
+                <button class="filter-btn" data-category="lyric">Lyric</button>
+                <button class="filter-btn" data-category="dramatic">Dramatic</button>
+                <button class="filter-btn" data-category="sonnet">Sonnet</button>
+            </div>
+
+            <div class="poems-grid">
+                <div class="poem-card" data-category="narrative">
+                    <div class="poem-category">Narrative</div>
+                    <details class="poem-details">
+                        <summary class="poem-title">The Journey Home</summary>
+                        <div class="poem-content">
+                            <p>Through winding paths and valleys deep,<br>
+                            Where ancient oaks their vigil keep,<br>
+                            A traveler walks with weary feet,<br>
+                            Seeking the place where hearts can meet.</p>
+                            
+                            <p>The stars above like diamonds shine,<br>
+                            Guiding souls through space and time,<br>
+                            While memories of days gone by<br>
+                            Dance beneath the moonlit sky.</p>
+                            
+                            <p>At last, the door of home appears,<br>
+                            Washing away the lonely tears,<br>
+                            For in this place of love and light,<br>
+                            The journey ends, the heart takes flight.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="poem-card" data-category="lyric">
+                    <div class="poem-category">Lyric</div>
+                    <details class="poem-details">
+                        <summary class="poem-title">Whispers of Dawn</summary>
+                        <div class="poem-content">
+                            <p>In the hush before the morning breaks,<br>
+                            When dew adorns the sleeping lakes,<br>
+                            I hear the whispers of the dawn,<br>
+                            Promising hope as night is drawn.</p>
+                            
+                            <p>Golden threads weave through the air,<br>
+                            Touching earth with gentle care,<br>
+                            Each ray a promise, soft and true,<br>
+                            That love will make all things anew.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="poem-card" data-category="dramatic">
+                    <div class="poem-category">Dramatic</div>
+                    <details class="poem-details">
+                        <summary class="poem-title">The Last Stand</summary>
+                        <div class="poem-content">
+                            <p>"Stand firm!" the captain cried aloud,<br>
+                            His voice above the battle's cloud,<br>
+                            "For honor, truth, and all we hold dear,<br>
+                            We face this moment without fear!"</p>
+                            
+                            <p>The soldiers raised their weary heads,<br>
+                            Remembering the words he said,<br>
+                            In unity they found their strength,<br>
+                            To go to any needed length.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="poem-card" data-category="sonnet">
+                    <div class="poem-category">Sonnet</div>
+                    <details class="poem-details">
+                        <summary class="poem-title">Love's Eternal Spring</summary>
+                        <div class="poem-content">
+                            <p>When winter's grip holds nature tight,<br>
+                            And flowers sleep beneath the snow,<br>
+                            Your love brings warmth and gentle light,<br>
+                            Making my frozen heart to glow.</p>
+                            
+                            <p>Like spring that conquers winter's reign,<br>
+                            Your tender words melt ice away,<br>
+                            And in your eyes I see again<br>
+                            The promise of a brighter day.</p>
+                            
+                            <p>Though seasons change and years may pass,<br>
+                            And autumn leaves may fall like tears,<br>
+                            Our love shall bloom like summer grass,<br>
+                            Growing stronger through the years.</p>
+                            
+                            <p>For in your heart I've found my home,<br>
+                            Where love's eternal spring will bloom.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="poem-card" data-category="lyric">
+                    <div class="poem-category">Lyric</div>
+                    <details class="poem-details">
+                        <summary class="poem-title">Ocean's Song</summary>
+                        <div class="poem-content">
+                            <p>The ocean sings its ancient song,<br>
+                            Of tides that ebb and flow along<br>
+                            The shores where dreams and reality meet,<br>
+                            Where earth and water's rhythms beat.</p>
+                            
+                            <p>Each wave carries stories untold,<br>
+                            Of sailors brave and treasures bold,<br>
+                            While seagulls dance on salty air,<br>
+                            Free from earthly weight and care.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="poem-card" data-category="narrative">
+                    <div class="poem-category">Narrative</div>
+                    <details class="poem-details">
+                        <summary class="poem-title">The Library's Secret</summary>
+                        <div class="poem-content">
+                            <p>In dusty corners where few dare tread,<br>
+                            Among the books both new and old,<br>
+                            A secret waits to be read,<br>
+                            A story that's never been told.</p>
+                            
+                            <p>The librarian with knowing eyes<br>
+                            Guards the wisdom of the ages,<br>
+                            Where truth and fiction intertwine<br>
+                            Across a thousand written pages.</p>
+                            
+                            <p>One day a child with curious mind<br>
+                            Discovered what was hidden there,<br>
+                            And in that moment came to find<br>
+                            That magic lives everywhere.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Joan Mokeira - Egerton University. All rights reserved.</p>
+            <p>Contact: <a href="mailto:joan.mokeira@example.com">joan.mokeira@example.com</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
